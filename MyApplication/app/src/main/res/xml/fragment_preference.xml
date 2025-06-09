@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- add padding to the top of the screen -->
+    <Preference
+        android:layout="@layout/toolbar"
+        android:paddingTop="16dp"/>
+
+    <PreferenceCategory
+        android:title="Pseudo">
+
+        <CheckBoxPreference
+            android:key="DefaultPseudoShow"
+            android:title="Show default pseudo"
+            android:summary="click this box"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
